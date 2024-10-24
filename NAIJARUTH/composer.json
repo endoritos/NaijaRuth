@@ -47,7 +47,9 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+            "assets:install %PUBLIC_DIR%": "symfony-cmd",
+             "dev": "your-dev-command-here",
+            "start": "php -S localhost:8000 -t public"
         },
         "post-install-cmd": [
             "@auto-scripts"

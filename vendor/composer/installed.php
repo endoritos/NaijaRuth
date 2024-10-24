@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ef49d981ae26ea066776c4cc2557edd04a1988c3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ef49d981ae26ea066776c4cc2557edd04a1988c3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -146,9 +146,9 @@
             'dev_requirement' => false,
         ),
         'doctrine/sql-formatter' => array(
-            'pretty_version' => '1.5.0',
-            'version' => '1.5.0.0',
-            'reference' => '16ca9e39877369d664f06dacde468548298bdc40',
+            'pretty_version' => '1.5.1',
+            'version' => '1.5.1.0',
+            'reference' => 'b784cbde727cf806721451dde40eff4fec3bbe86',
             'type' => 'library',
             'install_path' => __DIR__ . '/../doctrine/sql-formatter',
             'aliases' => array(),
@@ -412,8 +412,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache-implementation' => array(
@@ -1140,9 +1140,9 @@
             ),
         ),
         'symfony/stimulus-bundle' => array(
-            'pretty_version' => 'v2.20.0',
-            'version' => '2.20.0.0',
-            'reference' => 'ae69e3a764694b9f45d8a009dd2b8c22444c5e0c',
+            'pretty_version' => 'v2.21.0',
+            'version' => '2.21.0.0',
+            'reference' => 'e5f7747b514865719e0990389ce35a9b71bebb48',
             'type' => 'symfony-bundle',
             'install_path' => __DIR__ . '/../symfony/stimulus-bundle',
             'aliases' => array(),
@@ -1236,9 +1236,9 @@
             'dev_requirement' => false,
         ),
         'symfony/ux-turbo' => array(
-            'pretty_version' => 'v2.20.0',
-            'version' => '2.20.0.0',
-            'reference' => '5eaa803dea9f954aa124963f2c872b414d97cc97',
+            'pretty_version' => 'v2.21.0',
+            'version' => '2.21.0.0',
+            'reference' => '075c609e54fc421c6b1c1974e46e9a8b2d44277c',
             'type' => 'symfony-bundle',
             'install_path' => __DIR__ . '/../symfony/ux-turbo',
             'aliases' => array(),

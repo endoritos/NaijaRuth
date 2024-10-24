@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2.21.0
+
+-   Add `Helper/TurboStream::append()` et al. methods
+-   Add `TurboStreamResponse`
+-   Add `<twig:Turbo:Stream:*>` components
+
 ## 2.19.0
 
 -   Fix Doctrine proxies are not Broadcasted #3139
